@@ -1,0 +1,93 @@
+function setup(){
+    createCanvas(400,400);
+    background(0);
+    fill(255);
+    rect(50,50,300,300); 
+}
+
+function draw(){
+    var num;
+    if(mouseIsPressed){
+        num=int(random(1,7));
+    }
+            if(num==1){
+            uno();
+                  }
+
+            if(num==2){
+                two();
+                      }
+       
+            if(num==3){
+                three();
+            }
+        
+            if(num==4){
+                four();
+            }
+        
+            if(num==5){
+                five();
+            }
+        
+            if(num==6){
+                six();
+            }
+        }
+      
+function uno(){
+    fill(255);
+    rect(50,50,300,300);
+    strokeWeight(50);
+    point(200,200);
+}
+
+function two(){
+    fill(255);
+    rect(50,50,300,300);
+    strokeWeight(50);
+    point(150,150);
+    point(250,250);
+}
+
+function three(){
+    fill(255);
+    rect(50,50,300,300);
+    strokeWeight(50);
+    point(150,150);
+    point(250,250);
+    point(200,200);
+}
+
+function four(){
+    fill(255);
+    rect(50,50,300,300);
+    strokeWeight(50);
+    point(150,150);
+    point(250,150);
+    point(150,250);
+    point(250,250);
+}
+
+function five(){
+    fill(255);
+    rect(50,50,300,300);
+    strokeWeight(50);
+    point(150,150);
+    point(250,150);
+    point(200,200);
+    point(150,250);
+    point(250,250);
+}
+
+function six(){
+    fill(255);
+    rect(50,50,300,300);
+    strokeWeight(50);
+    point(150,140);
+    point(150,200);
+    point(150,260);
+    point(250,140);
+    point(250,200);
+    point(250,260)
+}
